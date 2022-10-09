@@ -1,0 +1,30 @@
+.container h1 {
+    color:cyan;
+}
+
+.container p {
+    font-style: italic;
+    color: blue;
+}
+
+.container-fluid {
+    padding: 0; /*Todas as bordas sem afastamento*/
+}
+
+.navbar {
+    border-bottom: 1px solid #333; /*Borda inferior 1 pixel, sólido, cor #333 - ver tabela*/
+    margin-bottom: 20px;             /*Margem inferior 20 pixels*/
+}
+
+.navbar-nav {
+    margin: auto; /*Ajuste automático*/
+}
+
+.navbar-brand {
+    font-weight: bold; /*Texto em negrito*/
+}
+
+.navbar-light .navbar-nav a.nav-link {
+    color: #333;        /*Cor #333*/
+    letter-spacing: 1px;  /*Espaçamento das letras 1 pixel*/
+}
